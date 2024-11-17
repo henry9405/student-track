@@ -2,8 +2,15 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div>
-      
-    </div>
+    <nav>
+      <ul>
+        <li>
+            <Link to ='/'>Sign In</Link>
+        </li>
+        <li>
+            <Link to ='/'>Sign Out</Link>
+        </li>
+      </ul>
+    </nav>
   )
 }
